@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:q="http://www.gallusrunning.com" xsi:schemaLocation="http://www.topografix.com/GPX/1/1http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Gallus Running - www.gallusrunning.com" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata>
+<copyright author="Gallus Running" route="523"></copyright>
+<desc>Gallus Running route file for route NYC Marathon with id 523 </desc>
+</metadata> 
+<rte>
+<name>NYC Marathon</name> 
+<extensions version="2.1"></extensions>
+<rtept lat="40.6014172894" lon="-74.0612949815" > 
+<ele>34.878345489502</ele>
+<cmt>0: comment information</cmt>
+<desc>start</desc>
+<sym>Ball Red</sym>
+<extensions length="0"></extensions>
+</rtept>
+<rtept lat="40.6026554585" lon="-74.056745955" > 
+<ele>28.671880722046</ele>
+<sym>Ball Blue</sym>
+<extensions length="0.40796231568107"></extensions>
+</rtept>
+<rtept lat="40.6094323987" lon="-74.0355457749" > 
+<ele>4.2416086196899</ele>
+<sym>Ball Blue</sym>
+<extensions length="2.349752086985"></extensions>
+</rtept>
+<rtept lat="40.6111265264" lon="-74.030567595" > 
+<ele>11.099514961243</ele>
+<sym>Ball Blue</sym>
+<extensions length="2.810249876968"></extensions>
+</rtept>
+<rtept lat="40.6138631034" lon="-74.0274776902" > 
+<ele>13.622123718262</ele>
+<sym>Ball Blue</sym>
+<extensions length="3.2110087906912"></extensions>
+</rtept>
+<rtept lat="40.6160131925" lon="-74.0255894151" > 
+<ele>18.35675239563</ele>
+<sym>Ball Blue</sym>
+<extensions length="3.4983321687943"></extensions>
+</rtept>
+<rtept lat="40.619466221" lon="-74.0227570023" > 
+<ele>25.690277099609</ele>
+<sym>Ball Blue</sym>
+<extensions length="3.9506141703369"></extensions>
+</rtept>
+<rtept lat="40.6227477038" lon="-74.0282493531" > 
+<ele>21.75853729248</ele>
+<sym>Ball Blue</sym>
+<extensions length="4.5405226670882"></extensions>
+</rtept>
+<rtept lat="40.6284562882" lon="-74.0260346618" > 
+<ele>23.914623260498</ele>
+<sym>Ball Blue</sym>
+<extensions length="5.2022023486275"></extensions>
+</rtept>
+<rtept lat="40.6367528607" lon="-74.0226173401" > 
+<ele>25.125003814697</ele>
+<sym>Ball Blue</sym>
+<extensions length="6.1687134370304"></extensions>
+</rtept>
+<rtept lat="40.638031333" lon="-74.0213998046" > 
+<ele>21.063228607178</ele>
+<sym>Ball Blue</sym>
+<extensions length="6.3441015264036"></extensions>
+</rtept>
+<rtept lat="40.647377076" lon="-74.0115721907" > 
+<ele>24.135572433472</ele>
+<sym>Ball Blue</sym>
+<extensions length="7.6735058021043"></extensions>
+</rtept>
+<rtept lat="40.6571121901" lon="-74.0014870849" > 
+<ele>6.1034555435181</ele>
+<sym>Ball Blue</sym>
+<extensions length="9.050262252456"></extensions>
+</rtept>
+<rtept lat="40.6651531695" lon="-73.9931547925" > 
+<ele>15.270392417908</ele>
+<sym>Ball Blue</sym>
+<extensions length="10.187489563451"></extensions>
+</rtept>
+<rtept lat="40.6724771046" lon="-73.9869749829" > 
+<ele>6.3401055335999</ele>
+<sym>Ball Blue</sym>
+<extensions length="11.154333800386"></extensions>
+</rtept>
+<rtept lat="40.6773267345" lon="-73.9831555173" > 
+<ele>7.5611567497253</ele>
+<sym>Ball Blue</sym>
+<extensions length="11.782433099124"></extensions>
+</rtept>
+<rtept lat="40.6815713276" lon="-73.9802855536" > 
+<ele>8.5014457702637</ele>
+<sym>Ball Blue</sym>
+<extensions length="12.312816434595"></extensions>
+</rtept>
+<rtept lat="40.6848907937" lon="-73.977968125" > 
+<ele>14.928466796875</ele>
+<sym>Ball Blue</sym>
+<extensions length="12.730439301276"></extensions>
+</rtept>
+<rtept lat="40.6867457174" lon="-73.9792985007" > 
+<ele>11.874865531921</ele>
+<sym>Ball Blue</sym>
+<extensions length="12.965216720836"></extensions>
+</rtept>
+<rtept lat="40.6874616391" lon="-73.9720458075" > 
+<ele>25.593765258789</ele>
+<sym>Ball Blue</sym>
+<extensions length="13.581872191268"></extensions>
+</rtept>
+<rtept lat="40.688502966" lon="-73.9635914847" > 
+<ele>21.125261306763</ele>
+<sym>Ball Blue</sym>
+<extensions length="14.30401433343"></extensions>
+</rtept>
+<rtept lat="40.6894141136" lon="-73.9550942466" > 
+<ele>15.489605903625</ele>
+<sym>Ball Blue</sym>
+<extensions length="15.027549527609"></extensions>
+</rtept>
+<rtept lat="40.6989566318" lon="-73.9569825217" > 
+<ele>4.6750087738037</ele>
+<sym>Ball Blue</sym>
+<extensions length="16.100453432712"></extensions>
+</rtept>
+<rtept lat="40.7008762344" lon="-73.9573687598" > 
+<ele>5.5857348442078</ele>
+<sym>Ball Blue</sym>
+<extensions length="16.316362250945"></extensions>
+</rtept>
+<rtept lat="40.7054524877" lon="-73.9627477509" > 
+<ele>17.140623092651</ele>
+<sym>Ball Blue</sym>
+<extensions length="16.99789704683"></extensions>
+</rtept>
+<rtept lat="40.7071116466" lon="-73.9644214493" > 
+<ele>15.258069038391</ele>
+<sym>Ball Blue</sym>
+<extensions length="17.23013644052"></extensions>
+</rtept>
+<rtept lat="40.7097466964" lon="-73.9640352112" > 
+<ele>16.463218688965</ele>
+<sym>Ball Blue</sym>
+<extensions length="17.524929544563"></extensions>
+</rtept>
+<rtept lat="40.7139814902" lon="-73.961709973" > 
+<ele>16.8623046875</ele>
+<sym>Ball Blue</sym>
+<extensions length="18.034949080064"></extensions>
+</rtept>
+<rtept lat="40.7153802124" lon="-73.9602937666" > 
+<ele>10.502724647522</ele>
+<sym>Ball Blue</sym>
+<extensions length="18.230992829933"></extensions>
+</rtept>
+<rtept lat="40.7205519767" lon="-73.954752207" > 
+<ele>5.0815200805664</ele>
+<sym>Ball Blue</sym>
+<extensions length="18.971786633748"></extensions>
+</rtept>
+<rtept lat="40.723569242" lon="-73.9516853129" > 
+<ele>3.3295319080353</ele>
+<sym>Ball Blue</sym>
+<extensions length="19.395278538633"></extensions>
+</rtept>
+<rtept lat="40.7238294342" lon="-73.9507411753" > 
+<ele>5.4070539474487</ele>
+<sym>Ball Blue</sym>
+<extensions length="19.479934717525"></extensions>
+</rtept>
+<rtept lat="40.7275045395" lon="-73.9528440272" > 
+<ele>9.4907236099243</ele>
+<sym>Ball Blue</sym>
+<extensions length="19.925332679393"></extensions>
+</rtept>
+<rtept lat="40.7302363443" lon="-73.9542602335" > 
+<ele>10.948296546936</ele>
+<sym>Ball Blue</sym>
+<extensions length="20.251679955267"></extensions>
+</rtept>
+<rtept lat="40.7304356382" lon="-73.9514707361" > 
+<ele>4.0093450546265</ele>
+<sym>Ball Blue</sym>
+<extensions length="20.487760333579"></extensions>
+</rtept>
+<rtept lat="40.7353786049" lon="-73.9526294504" > 
+<ele>4.5651898384094</ele>
+<sym>Ball Blue</sym>
+<extensions length="21.045970223192"></extensions>
+</rtept>
+<rtept lat="40.738402739" lon="-73.9529298578" > 
+<ele>4.139518737793</ele>
+<sym>Ball Blue</sym>
+<extensions length="21.383173558825"></extensions>
+</rtept>
+<rtept lat="40.7436052286" lon="-73.9512132441" > 
+<ele>5.9796018600464</ele>
+<sym>Ball Blue</sym>
+<extensions length="21.979439183093"></extensions>
+</rtept>
+<rtept lat="40.7440604271" lon="-73.9535306727" > 
+<ele>6.1039977073669</ele>
+<sym>Ball Blue</sym>
+<extensions length="22.181116297303"></extensions>
+</rtept>
+<rtept lat="40.7483846572" lon="-73.9521573817" > 
+<ele>2.1330673694611</ele>
+<sym>Ball Blue</sym>
+<extensions length="22.675646637777"></extensions>
+</rtept>
+<rtept lat="40.7488723347" lon="-73.9515994822" > 
+<ele>2.6487510204315</ele>
+<sym>Ball Blue</sym>
+<extensions length="22.747401900385"></extensions>
+</rtept>
+<rtept lat="40.7474682937" lon="-73.9438247681" > 
+<ele>5.0700650215149</ele>
+<sym>Ball Blue</sym>
+<extensions length="23.420659944665"></extensions>
+</rtept>
+<rtept lat="40.7477831834" lon="-73.9431049262" > 
+<ele>4.3161940574646</ele>
+<sym>Ball Blue</sym>
+<extensions length="23.490679258166"></extensions>
+</rtept>
+<rtept lat="40.7480595369" lon="-73.9428903495" > 
+<ele>4.0295729637146</ele>
+<sym>Ball Blue</sym>
+<extensions length="23.526329002286"></extensions>
+</rtept>
+<rtept lat="40.7479294883" lon="-73.9425255691" > 
+<ele>5.4122638702393</ele>
+<sym>Ball Blue</sym>
+<extensions length="23.560288737995"></extensions>
+</rtept>
+<rtept lat="40.7482383533" lon="-73.9416887199" > 
+<ele>4.7540588378906</ele>
+<sym>Ball Blue</sym>
+<extensions length="23.638701866211"></extensions>
+</rtept>
+<rtept lat="40.7488500564" lon="-73.9421403408" > 
+<ele>4.5117902755737</ele>
+<sym>Ball Blue</sym>
+<extensions length="23.716633000171"></extensions>
+</rtept>
+<rtept lat="40.7498793537" lon="-73.941228721" > 
+<ele>5.7067947387695</ele>
+<sym>Ball Blue</sym>
+<extensions length="23.854454538531"></extensions>
+</rtept>
+<rtept lat="40.7506352353" lon="-73.9404991602" > 
+<ele>7.8994827270508</ele>
+<sym>Ball Blue</sym>
+<extensions length="23.958571004698"></extensions>
+</rtept>
+<rtept lat="40.7512123004" lon="-73.9414218401" > 
+<ele>7.4150428771973</ele>
+<sym>Ball Blue</sym>
+<extensions length="24.059354271899"></extensions>
+</rtept>
+<rtept lat="40.753618039" lon="-73.9470652078" > 
+<ele>9.4412899017334</ele>
+<sym>Ball Blue</sym>
+<extensions length="24.604792553787"></extensions>
+</rtept>
+<rtept lat="40.7554060316" lon="-73.9512065386" > 
+<ele>0</ele>
+<sym>Ball Blue</sym>
+<extensions length="25.006283996114"></extensions>
+</rtept>
+<rtept lat="40.7575903004" lon="-73.9561360729" > 
+<ele>0</ele>
+<sym>Ball Blue</sym>
+<extensions length="25.487291253857"></extensions>
+</rtept>
+<rtept lat="40.7604021354" lon="-73.9627235782" > 
+<ele>20.50044631958</ele>
+<sym>Ball Blue</sym>
+<extensions length="26.124130959188"></extensions>
+</rtept>
+<rtept lat="40.7603289967" lon="-73.9631205451" > 
+<ele>20.048414230347</ele>
+<sym>Ball Blue</sym>
+<extensions length="26.158538602147"></extensions>
+</rtept>
+<rtept lat="40.7602233518" lon="-73.9631420028" > 
+<ele>19.258768081665</ele>
+<sym>Ball Blue</sym>
+<extensions length="26.170423914446"></extensions>
+</rtept>
+<rtept lat="40.760182719" lon="-73.9631205451" > 
+<ele>19.243869781494</ele>
+<sym>Ball Blue</sym>
+<extensions length="26.17529044555"></extensions>
+</rtept>
+<rtept lat="40.7596544915" lon="-73.9619403732" > 
+<ele>16.866790771484</ele>
+<sym>Ball Blue</sym>
+<extensions length="26.290741592275"></extensions>
+</rtept>
+<rtept lat="40.7603127436" lon="-73.9614790332" > 
+<ele>18.026487350464</ele>
+<sym>Ball Blue</sym>
+<extensions length="26.373606224037"></extensions>
+</rtept>
+<rtept lat="40.7661090205" lon="-73.9572345939" > 
+<ele>19.467311859131</ele>
+<sym>Ball Blue</sym>
+<extensions length="27.110582301845"></extensions>
+</rtept>
+<rtept lat="40.7694567745" lon="-73.9547240463" > 
+<ele>11.679193496704</ele>
+<sym>Ball Blue</sym>
+<extensions length="27.538665881696"></extensions>
+</rtept>
+<rtept lat="40.7741438181" lon="-73.9512908187" > 
+<ele>14.683605194092</ele>
+<sym>Ball Blue</sym>
+<extensions length="28.134631496988"></extensions>
+</rtept>
+<rtept lat="40.7789535485" lon="-73.9479005065" > 
+<ele>15.483645439148</ele>
+<sym>Ball Blue</sym>
+<extensions length="28.740842374032"></extensions>
+</rtept>
+<rtept lat="40.7827974594" lon="-73.9450667714" > 
+<ele>3.8417975902557</ele>
+<sym>Ball Blue</sym>
+<extensions length="29.230327342008"></extensions>
+</rtept>
+<rtept lat="40.7846983968" lon="-73.9436505651" > 
+<ele>3.0586156845093</ele>
+<sym>Ball Blue</sym>
+<extensions length="29.47300204222"></extensions>
+</rtept>
+<rtept lat="40.7870866769" lon="-73.941955409" > 
+<ele>3.1975393295288</ele>
+<sym>Ball Blue</sym>
+<extensions length="29.774472419989"></extensions>
+</rtept>
+<rtept lat="40.7906120763" lon="-73.9393207357" > 
+<ele>1.8612449169159</ele>
+<sym>Ball Blue</sym>
+<extensions length="30.224859483448"></extensions>
+</rtept>
+<rtept lat="40.7958211828" lon="-73.93558291" > 
+<ele>2.5701186656952</ele>
+<sym>Ball Blue</sym>
+<extensions length="30.884004447044"></extensions>
+</rtept>
+<rtept lat="40.7982253067" lon="-73.9337590079" > 
+<ele>3.5024557113647</ele>
+<sym>Ball Blue</sym>
+<extensions length="31.192267873574"></extensions>
+</rtept>
+<rtept lat="40.8023835856" lon="-73.9306663558" > 
+<ele>3.7056357860565</ele>
+<sym>Ball Blue</sym>
+<extensions length="31.722865738892"></extensions>
+</rtept>
+<rtept lat="40.8033519849" lon="-73.929200574" > 
+<ele>0</ele>
+<sym>Ball Blue</sym>
+<extensions length="31.886615993419"></extensions>
+</rtept>
+<rtept lat="40.8044564678" lon="-73.9268187724" > 
+<ele>3.0512778759003</ele>
+<sym>Ball Blue</sym>
+<extensions length="32.121706422877"></extensions>
+</rtept>
+<rtept lat="40.8058526805" lon="-73.9251657297" > 
+<ele>8.6907196044922</ele>
+<sym>Ball Blue</sym>
+<extensions length="32.330169270935"></extensions>
+</rtept>
+<rtept lat="40.8072494709" lon="-73.9242859652" > 
+<ele>12.16189289093</ele>
+<sym>Ball Blue</sym>
+<extensions length="32.502224561681"></extensions>
+</rtept>
+<rtept lat="40.8082564411" lon="-73.9265390207" > 
+<ele>5.3962297439575</ele>
+<sym>Ball Blue</sym>
+<extensions length="32.722430914769"></extensions>
+</rtept>
+<rtept lat="40.8100804615" lon="-73.9251010788" > 
+<ele>8.975172996521</ele>
+<sym>Ball Blue</sym>
+<extensions length="32.958603099845"></extensions>
+</rtept>
+<rtept lat="40.8110061855" lon="-73.9271395576" > 
+<ele>4.9914469718933</ele>
+<sym>Ball Blue</sym>
+<extensions length="33.158664721489"></extensions>
+</rtept>
+<rtept lat="40.8130037564" lon="-73.925809182" > 
+<ele>4.9812245368958</ele>
+<sym>Ball Blue</sym>
+<extensions length="33.407395282752"></extensions>
+</rtept>
+<rtept lat="40.8133772792" lon="-73.9267104042" > 
+<ele>4.2587056159973</ele>
+<sym>Ball Blue</sym>
+<extensions length="33.493863265797"></extensions>
+</rtept>
+<rtept lat="40.8122567044" lon="-73.927439965" > 
+<ele>4.7098836898804</ele>
+<sym>Ball Blue</sym>
+<extensions length="33.632764670246"></extensions>
+</rtept>
+<rtept lat="40.8117045301" lon="-73.9281266106" > 
+<ele>3.9824764728546</ele>
+<sym>Ball Blue</sym>
+<extensions length="33.717076734683"></extensions>
+</rtept>
+<rtept lat="40.8125327898" lon="-73.9291351211" > 
+<ele>2.9484961032867</ele>
+<sym>Ball Blue</sym>
+<extensions length="33.842313792888"></extensions>
+</rtept>
+<rtept lat="40.8131174374" lon="-73.9302080048" > 
+<ele>5.3298621177673</ele>
+<sym>Ball Blue</sym>
+<extensions length="33.953568640072"></extensions>
+</rtept>
+<rtept lat="40.8139619194" lon="-73.9319889915" > 
+<ele>6.8926997184753</ele>
+<sym>Ball Blue</sym>
+<extensions length="34.130428132481"></extensions>
+</rtept>
+<rtept lat="40.8141015494" lon="-73.9331388474" > 
+<ele>0</ele>
+<sym>Ball Blue</sym>
+<extensions length="34.228428606724"></extensions>
+</rtept>
+<rtept lat="40.8142681748" lon="-73.9343555414" > 
+<ele>3.7923021316528</ele>
+<sym>Ball Blue</sym>
+<extensions length="34.332478533795"></extensions>
+</rtept>
+<rtept lat="40.8148365674" lon="-73.9361579858" > 
+<ele>3.8745710849762</ele>
+<sym>Ball Blue</sym>
+<extensions length="34.496796800459"></extensions>
+</rtept>
+<rtept lat="40.8143331342" lon="-73.9363940202" > 
+<ele>5.1096448898315</ele>
+<sym>Ball Blue</sym>
+<extensions length="34.556192797283"></extensions>
+</rtept>
+<rtept lat="40.8128877723" lon="-73.9374669038" > 
+<ele>5.9392976760864</ele>
+<sym>Ball Blue</sym>
+<extensions length="34.740526766248"></extensions>
+</rtept>
+<rtept lat="40.8108252352" lon="-73.9390333139" > 
+<ele>6.4702730178833</ele>
+<sym>Ball Blue</sym>
+<extensions length="35.005045689519"></extensions>
+</rtept>
+<rtept lat="40.8082429133" lon="-73.9409244329" > 
+<ele>7.3709001541138</ele>
+<sym>Ball Blue</sym>
+<extensions length="35.333331556273"></extensions>
+</rtept>
+<rtept lat="40.8057417006" lon="-73.9427268774" > 
+<ele>7.3154296875</ele>
+<sym>Ball Blue</sym>
+<extensions length="35.650121847528"></extensions>
+</rtept>
+<rtept lat="40.8064401007" lon="-73.9443576604" > 
+<ele>9.2429256439209</ele>
+<sym>Ball Blue</sym>
+<extensions length="35.807817535768"></extensions>
+</rtept>
+<rtept lat="40.8038931557" lon="-73.9461780885" > 
+<ele>9.3703384399414</ele>
+<sym>Ball Blue</sym>
+<extensions length="36.129800519577"></extensions>
+</rtept>
+<rtept lat="40.8032109715" lon="-73.9445902208" > 
+<ele>8.4681758880615</ele>
+<sym>Ball Blue</sym>
+<extensions length="36.283469359259"></extensions>
+</rtept>
+<rtept lat="40.7982959342" lon="-73.9481948699" > 
+<ele>6.3565487861633</ele>
+<sym>Ball Blue</sym>
+<extensions length="36.90854107017"></extensions>
+</rtept>
+<rtept lat="40.7939070502" lon="-73.9513744645" > 
+<ele>9.7463321685791</ele>
+<sym>Ball Blue</sym>
+<extensions length="37.465114948442"></extensions>
+</rtept>
+<rtept lat="40.7893436338" lon="-73.9547198255" > 
+<ele>21.953544616699</ele>
+<sym>Ball Blue</sym>
+<extensions length="38.045430247026"></extensions>
+</rtept>
+<rtept lat="40.7840590551" lon="-73.9584159851" > 
+<ele>34.060878753662</ele>
+<sym>Ball Blue</sym>
+<extensions length="38.710326913833"></extensions>
+</rtept>
+<rtept lat="40.7841412372" lon="-73.958865421" > 
+<ele>33.750930786133</ele>
+<sym>Ball Blue</sym>
+<extensions length="38.749252796581"></extensions>
+</rtept>
+<rtept lat="40.7839381465" lon="-73.9591014554" > 
+<ele>34.115013122559</ele>
+<sym>Ball Blue</sym>
+<extensions length="38.779333108166"></extensions>
+</rtept>
+<rtept lat="40.7831745199" lon="-73.959648626" > 
+<ele>34.443557739258</ele>
+<sym>Ball Blue</sym>
+<extensions length="38.875932298516"></extensions>
+</rtept>
+<rtept lat="40.7822971508" lon="-73.9602708985" > 
+<ele>34.241321563721</ele>
+<sym>Ball Blue</sym>
+<extensions length="38.986664346723"></extensions>
+</rtept>
+<rtept lat="40.7817853468" lon="-73.9606785943" > 
+<ele>34.302356719971</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.05312223172"></extensions>
+</rtept>
+<rtept lat="40.7815657122" lon="-73.9612164961" > 
+<ele>33.688167572021</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.104574687676"></extensions>
+</rtept>
+<rtept lat="40.7815657122" lon="-73.9618924128" > 
+<ele>33.450996398926</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.1614823154"></extensions>
+</rtept>
+<rtept lat="40.781598208" lon="-73.9625146853" > 
+<ele>32.385429382324</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.213997974946"></extensions>
+</rtept>
+<rtept lat="40.7815007208" lon="-73.9632335173" > 
+<ele>32.538414001465</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.275481949626"></extensions>
+</rtept>
+<rtept lat="40.7811838864" lon="-73.9639630782" > 
+<ele>32.955989837646</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.346291684516"></extensions>
+</rtept>
+<rtept lat="40.7805745853" lon="-73.9643922316" > 
+<ele>32.372646331787</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.423072748589"></extensions>
+</rtept>
+<rtept lat="40.7801115127" lon="-73.964692639" > 
+<ele>30.463712692261</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.480438565105"></extensions>
+</rtept>
+<rtept lat="40.7793478421" lon="-73.965218352" > 
+<ele>29.426197052002</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.576194925259"></extensions>
+</rtept>
+<rtept lat="40.7787791455" lon="-73.965937184" > 
+<ele>29.713430404663</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.663724765368"></extensions>
+</rtept>
+<rtept lat="40.7783943344" lon="-73.9663137276" > 
+<ele>32.999095916748</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.716977605371"></extensions>
+</rtept>
+<rtept lat="40.7779637441" lon="-73.9665390332" > 
+<ele>33.384166717529</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.768476104899"></extensions>
+</rtept>
+<rtept lat="40.7772812934" lon="-73.9668930848" > 
+<ele>31.565523147583</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.850003144667"></extensions>
+</rtept>
+<rtept lat="40.7768831939" lon="-73.9670218308" > 
+<ele>30.605129241943</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.895575828114"></extensions>
+</rtept>
+<rtept lat="40.7764513542" lon="-73.9672471364" > 
+<ele>26.754713058472</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.947203659583"></extensions>
+</rtept>
+<rtept lat="40.7760857482" lon="-73.9673115094" > 
+<ele>23.115522384644</ele>
+<sym>Ball Blue</sym>
+<extensions length="39.98821505364"></extensions>
+</rtept>
+<rtept lat="40.7757282648" lon="-73.9672685941" > 
+<ele>22.004062652588</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.028127301712"></extensions>
+</rtept>
+<rtept lat="40.7754439016" lon="-73.9673758824" > 
+<ele>19.849153518677</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.061010901178"></extensions>
+</rtept>
+<rtept lat="40.7752245349" lon="-73.9678157647" > 
+<ele>17.957410812378</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.105359506779"></extensions>
+</rtept>
+<rtept lat="40.7750539158" lon="-73.9681054433" > 
+<ele>17.813541412354</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.136259860582"></extensions>
+</rtept>
+<rtept lat="40.7747045516" lon="-73.9686526139" > 
+<ele>18.502017974854</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.196523305997"></extensions>
+</rtept>
+<rtept lat="40.7744201841" lon="-73.9688886483" > 
+<ele>19.420255661011</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.233869591094"></extensions>
+</rtept>
+<rtept lat="40.7740870662" lon="-73.9691997845" > 
+<ele>19.188528060913</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.279237741061"></extensions>
+</rtept>
+<rtept lat="40.7736808227" lon="-73.969103225" > 
+<ele>20.565870285034</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.325133779531"></extensions>
+</rtept>
+<rtept lat="40.7733558261" lon="-73.968910106" > 
+<ele>21.789024353027</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.36476028173"></extensions>
+</rtept>
+<rtept lat="40.7728520782" lon="-73.9688028176" > 
+<ele>24.554628372192</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.421495670765"></extensions>
+</rtept>
+<rtept lat="40.7724945774" lon="-73.9688564618" > 
+<ele>26.534038543701</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.461501850436"></extensions>
+</rtept>
+<rtept lat="40.7719258221" lon="-73.9691890557" > 
+<ele>26.778160095215</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.530665386538"></extensions>
+</rtept>
+<rtept lat="40.7716170673" lon="-73.9694250901" > 
+<ele>26.299325942993</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.570334166232"></extensions>
+</rtept>
+<rtept lat="40.7713326865" lon="-73.9700044472" > 
+<ele>24.581920623779</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.628470771804"></extensions>
+</rtept>
+<rtept lat="40.7710401793" lon="-73.9705730756" > 
+<ele>22.926952362061</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.686354234979"></extensions>
+</rtept>
+<rtept lat="40.7708126728" lon="-73.9708949406" > 
+<ele>23.598485946655</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.723428301201"></extensions>
+</rtept>
+<rtept lat="40.7704064092" lon="-73.9710773309" > 
+<ele>23.634733200073</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.771140225719"></extensions>
+</rtept>
+<rtept lat="40.769902639" lon="-73.971463569" > 
+<ele>23.55823135376</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.835912208226"></extensions>
+</rtept>
+<rtept lat="40.769683254" lon="-73.9718068917" > 
+<ele>23.18683052063</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.873738977581"></extensions>
+</rtept>
+<rtept lat="40.7694801191" lon="-73.972246774" > 
+<ele>23.612745285034</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.917123879356"></extensions>
+</rtept>
+<rtept lat="40.7693663632" lon="-73.9726115544" > 
+<ele>24.58350944519</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.950343667437"></extensions>
+</rtept>
+<rtept lat="40.7690169691" lon="-73.9728475888" > 
+<ele>24.279428482056</ele>
+<sym>Ball Blue</sym>
+<extensions length="40.993982075924"></extensions>
+</rtept>
+<rtept lat="40.7683181754" lon="-73.9730728944" > 
+<ele>21.709939956665</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.073963568516"></extensions>
+</rtept>
+<rtept lat="40.7679024085" lon="-73.973158725" > 
+<ele>19.869232177734</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.120754115728"></extensions>
+</rtept>
+<rtept lat="40.7673661166" lon="-73.9730514367" > 
+<ele>18.439846038818</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.18106472281"></extensions>
+</rtept>
+<rtept lat="40.7669842091" lon="-73.9729119618" > 
+<ele>16.321769714355</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.225123219288"></extensions>
+</rtept>
+<rtept lat="40.7664885387" lon="-73.9726222832" > 
+<ele>15.553162574768</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.285393991756"></extensions>
+</rtept>
+<rtept lat="40.7663747778" lon="-73.9725900967" > 
+<ele>15.538083076477</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.298330023753"></extensions>
+</rtept>
+<rtept lat="40.7659603612" lon="-73.9725793679" > 
+<ele>15.608218193054</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.344417695785"></extensions>
+</rtept>
+<rtept lat="40.7656597045" lon="-73.972772487" > 
+<ele>16.386220932007</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.38159347165"></extensions>
+</rtept>
+<rtept lat="40.7654208426" lon="-73.9728999138" > 
+<ele>16.968334197998</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.410238337856"></extensions>
+</rtept>
+<rtept lat="40.7652046539" lon="-73.9730728944" > 
+<ele>16.731079101562</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.438345850752"></extensions>
+</rtept>
+<rtept lat="40.7650827648" lon="-73.9731909116" > 
+<ele>16.744659423828</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.455152612066"></extensions>
+</rtept>
+<rtept lat="40.7647658521" lon="-73.9735127766" > 
+<ele>17.055892944336</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.499609292467"></extensions>
+</rtept>
+<rtept lat="40.7645870802" lon="-73.9736737092" > 
+<ele>18.064666748047</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.523667444249"></extensions>
+</rtept>
+<rtept lat="40.7655459421" lon="-73.9758623917" > 
+<ele>17.319890975952</ele>
+<sym>Ball Blue</sym>
+<extensions length="41.736599506439"></extensions>
+</rtept>
+<rtept lat="40.7666559687" lon="-73.9786398411" > 
+<ele>23.368658065796</ele>
+<sym>Ball Blue</sym>
+<extensions length="42.00106353917"></extensions>
+</rtept>
+<rtept lat="40.7678049012" lon="-73.9813274467" > 
+<ele>25.247421264648</ele>
+<cmt>168: comment information</cmt>
+<desc>end</desc>
+<sym>Ball Red</sym>
+<extensions length="42.260955689917"></extensions>
+</rtept>
+</rte>
+<extensions>
+<routedesc></routedesc>
+</extensions>
+</gpx>
