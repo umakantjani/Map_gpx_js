@@ -143,7 +143,7 @@ def load_all_styles(pattern):
                 # Use filename without extension as key
                 style_name = os.path.splitext(os.path.basename(style_file))[0]
                 styles[style_name] = style_data
-                print(f"Loaded style: {style_name}")
+               # print(f"Loaded style: {style_name}")
         except json.JSONDecodeError:
             print(f"Error: Invalid JSON in {style_file}")
         except Exception as e:
@@ -221,6 +221,6 @@ if __name__ == "__main__":
         with open(OUTPUT_FILENAME, 'w') as f:
             f.write(html_output)
         print(f"Success! Map generated: {OUTPUT_FILENAME}")
-        print(f"Available styles: {', '.join(all_styles.keys())}")
+        # print(f"Available styles: {', '.join(all_styles.keys())}")
     else:
         print("No data extracted.")
