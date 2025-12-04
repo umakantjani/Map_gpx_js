@@ -1,10 +1,12 @@
 import gpxpy
 import json
+import glob
+import os
 
 # --- CONFIGURATION ---
 GPX_FILENAME = 'gpx_20251102_id10470_race1_20250929105512.gpx' 
 OUTPUT_FILENAME = 'marathon_map.html'
-MAP_STYLE_FILE = 'map_style.json'
+STYLE_PATTERN = '*.json'  # Pattern to find all style files
 API_KEY = 'AIzaSyAv4_E-2a4GY8g1nkp79rtxQDgwdXVNt4w'  # Paste your API key here
 
 HTML_TEMPLATE = """<!DOCTYPE html>
@@ -12,30 +14,69 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <head>
     <title>NYC Marathon Route 2025</title>
     <style>
-      html, body { height: 100%; margin: 0; padding: 0; }
+      html, body { height: 100%; margin: 0; padding: 0; font-family: Arial, sans-serif; }
       #map { height: 100%; }
+      #style-selector {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+        background: white;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      }
+      #style-selector label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      #style-selector select {
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        min-width: 200px;
+      }
     </style>
   </head>
   <body>
+    <div id="style-selector">
+      <label for="style-dropdown">Map Style:</label>
+      <select id="style-dropdown" onchange="changeMapStyle(this.value)">
+        __STYLE_OPTIONS__
+      </select>
+    </div>
     <div id="map"></div>
     <script>
-      function initMap() {
-        
-        // 1. STYLE: Injected from Python
-        const mapStyle = __MAP_STYLE__;
+      let map;
+      let marathonPath;
+      let startMarker;
+      let finishMarker;
+      
+      // All available styles: Injected from Python
+      const allStyles = __ALL_STYLES__;
+      
+      // Default style name: Injected from Python
+      const defaultStyle = '__DEFAULT_STYLE__';
 
-        // 2. DATA: Injected from Python
+      function initMap() {
+        // DATA: Injected from Python
         const routeCoords = __ROUTE_COORDS__;
 
-        // 3. MAP SETUP
-        const map = new google.maps.Map(document.getElementById("map"), {
+        // Get default style
+        const initialStyle = allStyles[defaultStyle] || [];
+
+        // MAP SETUP
+        map = new google.maps.Map(document.getElementById("map"), {
           center: routeCoords.length > 0 ? routeCoords[0] : { lat: 40.7128, lng: -74.0060 },
           zoom: 12,
-          styles: mapStyle
+          styles: initialStyle
         });
 
-        // 4. DRAW LINE
-        const marathonPath = new google.maps.Polyline({
+        // DRAW LINE
+        marathonPath = new google.maps.Polyline({
           path: routeCoords,
           geodesic: true,
           strokeColor: "#FF0000",
@@ -49,20 +90,26 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         routeCoords.forEach(pt => bounds.extend(pt));
         map.fitBounds(bounds);
 
-        // 5. MARKERS
+        // MARKERS
         if (routeCoords.length > 0) {
-            new google.maps.Marker({
+            startMarker = new google.maps.Marker({
                 position: routeCoords[0],
                 map: map,
                 title: "Start",
                 icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
             });
-            new google.maps.Marker({
+            finishMarker = new google.maps.Marker({
                 position: routeCoords[routeCoords.length - 1],
                 map: map,
                 title: "Finish",
                 icon: "http://maps.google.com/mapfiles/ms/icons/red-dot.png"
             });
+        }
+      }
+      
+      function changeMapStyle(styleName) {
+        if (map && allStyles[styleName]) {
+          map.setOptions({ styles: allStyles[styleName] });
         }
       }
     </script>
@@ -73,8 +120,34 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
+def load_all_styles(pattern):
+    """Load all map style files matching the pattern"""
+    style_files = glob.glob(pattern)
+    styles = {}
+    
+    if not style_files:
+        print(f"Warning: No style files found matching pattern '{pattern}'. Using empty style.")
+        return styles, None
+    
+    for style_file in sorted(style_files):
+        try:
+            with open(style_file, 'r') as f:
+                style_data = json.load(f)
+                # Use filename without extension as key
+                style_name = os.path.splitext(os.path.basename(style_file))[0]
+                styles[style_name] = style_data
+                print(f"Loaded style: {style_name}")
+        except json.JSONDecodeError:
+            print(f"Error: Invalid JSON in {style_file}")
+        except Exception as e:
+            print(f"Error loading {style_file}: {e}")
+    
+    # Return first style as default
+    default = list(styles.keys())[0] if styles else None
+    return styles, default
+
 def load_map_style(filename):
-    """Load map style from JSON file"""
+    """Load map style from JSON file (legacy function for backward compatibility)"""
     try:
         with open(filename, 'r') as f:
             return json.load(f)
@@ -99,15 +172,24 @@ def parse_gpx_to_json(filename):
         print(f"Error: Could not find file {filename}")
         return []
 
-def generate_html(route_data, style_data, api_key):
+def generate_html(route_data, all_styles_dict, default_style_name, api_key):
     # Convert Python objects to JSON strings for JavaScript
     json_coords = json.dumps(route_data)
-    json_style = json.dumps(style_data)
+    json_all_styles = json.dumps(all_styles_dict)
+    
+    # Generate dropdown options
+    style_options = ""
+    for style_name in sorted(all_styles_dict.keys()):
+        selected = "selected" if style_name == default_style_name else ""
+        display_name = style_name.replace("_", " ").title()
+        style_options += f'<option value="{style_name}" {selected}>{display_name}</option>\n        '
 
     html_content = (
         HTML_TEMPLATE
-        .replace("__MAP_STYLE__", json_style)
         .replace("__ROUTE_COORDS__", json_coords)
+        .replace("__ALL_STYLES__", json_all_styles)
+        .replace("__DEFAULT_STYLE__", default_style_name or "")
+        .replace("__STYLE_OPTIONS__", style_options)
         .replace("__API_KEY__", api_key)
     )
     return html_content
@@ -118,13 +200,20 @@ if __name__ == "__main__":
     
     if coords:
         print(f"Extracted {len(coords)} points.")
-        print(f"Loading map style from {MAP_STYLE_FILE}...")
-        map_style = load_map_style(MAP_STYLE_FILE)
-        # Pass the detailed style to the generator
-        html_output = generate_html(coords, map_style, API_KEY)
+        print(f"Loading all map styles matching '{STYLE_PATTERN}'...")
+        all_styles, default_style = load_all_styles(STYLE_PATTERN)
+        
+        if not all_styles:
+            print("Warning: No styles loaded. Map will use default Google Maps style.")
+            all_styles = {}
+            default_style = None
+        
+        # Generate HTML with all styles
+        html_output = generate_html(coords, all_styles, default_style, API_KEY)
         
         with open(OUTPUT_FILENAME, 'w') as f:
             f.write(html_output)
         print(f"Success! Map generated: {OUTPUT_FILENAME}")
+        print(f"Available styles: {', '.join(all_styles.keys())}")
     else:
         print("No data extracted.")
