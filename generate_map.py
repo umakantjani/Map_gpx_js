@@ -2,12 +2,19 @@ import gpxpy
 import json
 import glob
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # --- CONFIGURATION ---
 GPX_FILENAME = 'gpx_20251102_id10470_race1_20250929105512.gpx' 
 OUTPUT_FILENAME = 'marathon_map.html'
-STYLE_PATTERN = '*.json'  # Pattern to find all style files
-API_KEY = 'AIzaSyAv4_E-2a4GY8g1nkp79rtxQDgwdXVNt4w'  # Paste your API key here
+STYLE_PATTERN = 'styles/*.json'  # Pattern to find all style files
+API_KEY = os.getenv('GOOGLE_MAPS_API_KEY')  # Load from .env file
+
+if not API_KEY:
+    raise ValueError("GOOGLE_MAPS_API_KEY not found in environment variables. Please create a .env file with your API key.")
 
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html>

@@ -40,3 +40,6 @@ Thumbs.db
 # Project specific
 *.html
 *.gpx
+
+# Environment variables
+.env
