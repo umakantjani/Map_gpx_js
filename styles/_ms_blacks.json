@@ -1,0 +1,21 @@
+[
+    {
+        "featureType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "lightness": -100
+            }
+        ]
+    }
+]
